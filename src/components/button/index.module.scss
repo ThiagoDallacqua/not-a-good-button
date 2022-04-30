@@ -1,0 +1,26 @@
+.button {
+  background-color: #4f48cb;
+  border: 2px solid #353184;
+  border-radius: 4px;
+  color: #fff;
+  padding: 8px 12px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: 150ms;
+  transition-timing-function: ease-in-out;
+
+  &:hover {
+    transform: scale(.8);
+  }
+
+  &.warning {
+    background-color: #e5ee3d;
+    border-color: #b2b835;
+    color: #000;
+  }
+
+  &.danger {
+    background-color: #b52f2f;
+    border-color: #6f2020;
+  }
+}
